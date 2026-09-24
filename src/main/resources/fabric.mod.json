@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "primesanctums",
+  "version": "${version}",
+  "name": "Prime Sanctums",
+  "description": "Standalone Fabric port of the P-1/P-2 Prime Sanctums bosses.",
+  "authors": ["3CPIQ"],
+  "license": "All Rights Reserved",
+  "icon": "assets/primesanctums/icon.png",
+  "environment": "*",
+  "entrypoints": {"main": ["com.xoy.primesanctums.PrimeSanctums"]},
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  },
+  "suggests": {"ultracraft": "*"}
+}
